@@ -33,7 +33,7 @@ class UserController
             $_SESSION['username'] = $username;
 
             header("Location: " . $baseURL. 'home/index');
-             exit;
+            exit;
 
         }
        include './App/Views/User/register.php';
